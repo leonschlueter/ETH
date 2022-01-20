@@ -10,4 +10,12 @@ public class Helper {
 		}
 		return arr;
 	}
+	public static int[] getBigArray() {
+		Random random = new Random();
+		int[] arr = new int[50000];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = random.nextInt(100);
+		}
+		return arr;
+	}
 }

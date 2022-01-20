@@ -24,9 +24,9 @@ public class Search {
 				r = m - 1;
 				m = l + (r - l) / 2;
 				return binarySearchRek(arr, key, l, m, r);
-
 			}
 		}
-
 	}
+	
+	
 }
